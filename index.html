@@ -24,11 +24,20 @@
     }
   </style>
 </head>
-
+<script>
+  function afficherMessage() {
+    document.getElementById("message").innerHTML =
+      "Bravo ! Tu viens d'utiliser JavaScript !";
+  }
+</script>
   <body>
     <h1>Bienvenue sur mon premier site !</h1>
     <p>Bonjour, je découvre la programmation.</p>
     <p>Je suis fière de créer mon premier site web !</p>
   </body>
+<button onclick="afficherMessage()">Clique ici !</button>
+
+<p id="message"></p>
+
 </html>
 
